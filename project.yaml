@@ -1,0 +1,8 @@
+project:
+  name: "starter"
+  port: 3306
+  router: "*gin.Engine"
+  database: "mysql"
+
+entities:
+  - user
